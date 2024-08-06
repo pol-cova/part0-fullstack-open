@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 3rem;
+    color: cornflowerblue;
+    text-align: center;
+}
