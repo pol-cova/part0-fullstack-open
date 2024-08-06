@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0;
     background-color: #fff;
 }
 
@@ -10,4 +11,16 @@ body {
     font-size: 3rem;
     color: cornflowerblue;
     text-align: center;
+}
+
+.form-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-name label,
+.form-name input,
+.form-name button {
+    margin: 5px 0;
 }
